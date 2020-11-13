@@ -29,7 +29,7 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Education">Education</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -262,13 +262,31 @@
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
                         <h2 class="text-white mb-5">Send me your email and I'll contact you you!</h2>
-                        <form class="form-inline d-flex">
-                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Type your email here and I'll contact you back..." />
+                        <!--Comment
+                        <form class="form-inline d-flex" action="https://formspree.io/f/{form_id}" method="post">
+                           
+                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" name="_replyto" placeholder="Type your email here and I'll contact you back..." />
+                           &nbsp;&nbsp;
+                            <textarea name="message" placeholder="Type your message here" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"> </textarea>
+                            &nbsp;
                             <button class="btn btn-primary mx-auto" type="submit">Connect</button>
-                        </form>
+                            -->
+                            <form action="https://formspree.io/f/mdopdgka"   method="POST">
+                                 
+                                              <input type="text" name="_replyto" placeholder="Type your email here and I'll contact you back..." class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" >
+                           <br/>
+                                                  <textarea name="message" placeholder="Type your message here" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" ></textarea>
+                                                   <br/>
+                                                      <!-- your other form fields go here -->
+                                                  <button class="btn btn-primary mx-auto" type="submit">Connect</button>
+                                                            </form>
                     </div>
                 </div>
             </div>
+            
+               
+               
+             
         </section>
         <!-- Contact-->
         <section class="contact-section bg-black" id="Contact">
